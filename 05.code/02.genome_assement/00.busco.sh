@@ -1,0 +1,1 @@
+for i in `ls *fa`;do sh BUSCO_genome.sh $i > $i.log 2>&1;done
