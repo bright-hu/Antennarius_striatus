@@ -1,0 +1,1 @@
+for i in `ls *fa`;do perl fastaFileStatics_NoBioPerl.pl $i > $i.stat 2>&1;done
